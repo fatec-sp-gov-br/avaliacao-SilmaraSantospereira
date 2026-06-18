@@ -1,35 +1,19 @@
 package br.edu.poo;
 
-public class Personagem {
+public class Pocao {
+    private String nome;
+    private int cura;
 
-    public Personagem(String nome,
-                      int vida,
-                      int ataque,
-                      int defesa) {
-
-    }
-
-    public void atacar(Personagem inimigo) {
-
-    }
-
-    public void receberDano(int dano) {
-
-    }
-
-    public void usarPocao(Pocao pocao) {
-
-    }
-
-    public boolean estaVivo() {
-        return false;
+    public Pocao(String nome, int cura) {
+        this.nome = nome;
+        this.cura = cura;
     }
 
     public String getNome() {
-        return null;
+        return nome;
     }
 
-    public int getVida() {
-        return 0;
+    public int getCura() {
+        return cura;
     }
 }
